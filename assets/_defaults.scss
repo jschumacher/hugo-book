@@ -28,6 +28,14 @@ $hint-colors: (
   danger: #f66,
 ) !default;
 
+$confluence-information-colors: (
+  confluence-information-macro-information: #6bf,
+  confluence-information-macro-note: #fd6,
+  confluence-information-macro-warning: #f66,
+  confluence-information-macro-tip: #3ea753,
+) !default;
+
+
 // Themes
 @mixin theme-light {
   --gray-100: #f8f9fa;
@@ -41,6 +49,12 @@ $hint-colors: (
   --body-font-color: black;
 
   --icon-filter: none;
+
+  --confluence-information-macro-information: #6bf;
+  --confluence-information-macro-note: #fd6;
+  --confluence-information-macro-warning: #f66;
+  --confluence-information-macro-tip: #3ea753;
+
 
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
@@ -63,4 +77,9 @@ $hint-colors: (
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
+
+  --confluence-information-macro-information: #6bf;
+  --confluence-information-macro-note: #fd6;
+  --confluence-information-macro-warning: #f66;
+  --confluence-information-macro-tip: #3ea753;
 }
